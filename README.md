@@ -5,9 +5,12 @@ Kaporli’s Tweaks is a lightweight theme for Decky Loader’s CSS Loader on the
 ##
 Provides the following UI tweaks  
 * Toggling transparent footer  
+* Toggling footer icon dropshadow
 * Toggling transparent header  
+* Toggling header icon dropshadow
 * Toggling disable darkened background for properties menu  
 * Toggling disable blurred background for properties menu  
+* Changing the opacity of the Steam Menu and the QAM
 
 ## Preview
 
