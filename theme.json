@@ -1,5 +1,5 @@
 {
-  "name": "Kaporli's Tweaks",
+  "name": "Kaporlis Tweaks",
   "author": "Kaporli",
   "manifest_version": 7,
   "target": "System-Wide",
@@ -9,9 +9,7 @@
       "type": "checkbox",
       "default": "No",
       "values": {
-        "Yes": {
-          "footer.css": ["bigpicture", "QuickAccess", "MainMenu"]
-        },
+        "Yes": { "footer.css": ["bigpicture","QuickAccess","MainMenu"] },
         "No": {}
       }
     },
@@ -19,24 +17,15 @@
       "type": "checkbox",
       "default": "No",
       "values": {
-        "Yes": {
-          "header.css": ["bigpicture", "QuickAccess", "MainMenu"]
-        },
+        "Yes": { "header.css": ["bigpicture","QuickAccess","MainMenu"] },
         "No": {}
       }
-    },
-    "Properties Menu Background": {
-      "type": "none",
-      "default": "",
-      "values": {}
     },
     "Toggle Disable Darken": {
       "type": "checkbox",
       "default": "No",
       "values": {
-        "Yes": {
-          "overlay-darken.css": ["bigpicture", "QuickAccess", "MainMenu"]
-        },
+        "Yes": { "overlay-darken.css": ["bigpicture","QuickAccess","MainMenu"] },
         "No": {}
       }
     },
@@ -44,9 +33,7 @@
       "type": "checkbox",
       "default": "No",
       "values": {
-        "Yes": {
-          "overlay-blur.css": ["bigpicture", "QuickAccess", "MainMenu"]
-        },
+        "Yes": { "overlay-blur.css": ["bigpicture","QuickAccess","MainMenu"] },
         "No": {}
       }
     }
