@@ -1,41 +1,194 @@
 {
-  "name": "Kaporli's Tweaks",
-  "author": "Kaporli",
-  "manifest_version": 7,
-  "target": "System-Wide",
-  "inject": {},
-  "patches": {
-    "Toggle Transparent Footer": {
-      "type": "checkbox",
-      "default": "No",
-      "values": {
-        "Yes": { "footer.css": ["bigpicture","QuickAccess","MainMenu"] },
-        "No": {}
-      }
+    "name": "Kaporli's Tweaks",
+    "author": "Kaporli",
+    "version": "1.1",
+    "manifest_version": 7,
+    "target": "System-Wide",
+    "inject": {
+        "menu-opacity.css": [
+            "bigpicture",
+            "QuickAccess",
+            "MainMenu"
+        ]
     },
-    "Toggle Transparent Header": {
-      "type": "checkbox",
-      "default": "No",
-      "values": {
-        "Yes": { "header.css": ["bigpicture","QuickAccess","MainMenu"] },
-        "No": {}
-      }
-    },
-    "Toggle Disable Darken": {
-      "type": "checkbox",
-      "default": "No",
-      "values": {
-        "Yes": { "overlay-darken.css": ["bigpicture","QuickAccess","MainMenu"] },
-        "No": {}
-      }
-    },
-    "Toggle Disable Blur": {
-      "type": "checkbox",
-      "default": "No",
-      "values": {
-        "Yes": { "overlay-blur.css": ["bigpicture","QuickAccess","MainMenu"] },
-        "No": {}
-      }
+    "patches": {
+        "Toggle Transparent Footer": {
+            "type": "checkbox",
+            "default": "No",
+            "values": {
+                "Yes": {
+                    "footer.css": [
+                        "bigpicture",
+                        "QuickAccess",
+                        "MainMenu"
+                    ]
+                },
+                "No": {}
+            }
+        },
+        "Toggle Footer Icon Dropshadow": {
+            "type": "checkbox",
+            "default": "No",
+            "values": {
+                "Yes": {
+                    "footer-icon-dropshadow.css": [
+                        "bigpicture",
+                        "QuickAccess",
+                        "MainMenu"
+                    ]
+                },
+                "No": {}
+            }
+        },
+        "Toggle Transparent Header": {
+            "type": "checkbox",
+            "default": "No",
+            "values": {
+                "Yes": {
+                    "header.css": [
+                        "bigpicture",
+                        "QuickAccess",
+                        "MainMenu"
+                    ]
+                },
+                "No": {}
+            }
+        },
+        "Toggle Header Icon Dropshadow": {
+            "type": "checkbox",
+            "default": "No",
+            "values": {
+                "Yes": {
+                    "header-icon-dropshadow.css": [
+                        "bigpicture",
+                        "QuickAccess",
+                        "MainMenu"
+                    ]
+                },
+                "No": {}
+            }
+        },
+        "Toggle Disable Darken": {
+            "type": "checkbox",
+            "default": "No",
+            "values": {
+                "Yes": {
+                    "overlay-darken.css": [
+                        "bigpicture",
+                        "QuickAccess",
+                        "MainMenu"
+                    ]
+                },
+                "No": {}
+            }
+        },
+        "Toggle Disable Blur": {
+            "type": "checkbox",
+            "default": "No",
+            "values": {
+                "Yes": {
+                    "overlay-blur.css": [
+                        "bigpicture",
+                        "QuickAccess",
+                        "MainMenu"
+                    ]
+                },
+                "No": {}
+            }
+        },
+        "Menu Background Opacity": {
+            "type": "slider",
+            "default": "1",
+            "values": {
+                "0": {
+                    "--menu-bg-opacity": [
+                        "0",
+                        "bigpicture",
+                        "QuickAccess",
+                        "MainMenu"
+                    ]
+                },
+                "1": {
+                    "--menu-bg-opacity": [
+                        "1",
+                        "bigpicture",
+                        "QuickAccess",
+                        "MainMenu"
+                    ]
+                },
+                "0.1": {
+                    "--menu-bg-opacity": [
+                        "0.1",
+                        "bigpicture",
+                        "QuickAccess",
+                        "MainMenu"
+                    ]
+                },
+                "0.2": {
+                    "--menu-bg-opacity": [
+                        "0.2",
+                        "bigpicture",
+                        "QuickAccess",
+                        "MainMenu"
+                    ]
+                },
+                "0.3": {
+                    "--menu-bg-opacity": [
+                        "0.3",
+                        "bigpicture",
+                        "QuickAccess",
+                        "MainMenu"
+                    ]
+                },
+                "0.4": {
+                    "--menu-bg-opacity": [
+                        "0.4",
+                        "bigpicture",
+                        "QuickAccess",
+                        "MainMenu"
+                    ]
+                },
+                "0.5": {
+                    "--menu-bg-opacity": [
+                        "0.5",
+                        "bigpicture",
+                        "QuickAccess",
+                        "MainMenu"
+                    ]
+                },
+                "0.6": {
+                    "--menu-bg-opacity": [
+                        "0.6",
+                        "bigpicture",
+                        "QuickAccess",
+                        "MainMenu"
+                    ]
+                },
+                "0.7": {
+                    "--menu-bg-opacity": [
+                        "0.7",
+                        "bigpicture",
+                        "QuickAccess",
+                        "MainMenu"
+                    ]
+                },
+                "0.8": {
+                    "--menu-bg-opacity": [
+                        "0.8",
+                        "bigpicture",
+                        "QuickAccess",
+                        "MainMenu"
+                    ]
+                },
+                "0.9": {
+                    "--menu-bg-opacity": [
+                        "0.9",
+                        "bigpicture",
+                        "QuickAccess",
+                        "MainMenu"
+                    ]
+                }
+            }
+        }
     }
-  }
 }
