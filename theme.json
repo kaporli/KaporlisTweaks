@@ -1,0 +1,52 @@
+{
+  "name": "Kaporlis Tweaks",
+  "author": "Kaporli",
+  "manifest_version": 8,
+  "target": "System-Wide",
+  "inject": {},
+  "patches": {
+    "Toggle Transparent Footer": {
+      "type": "checkbox",
+      "default": "No",
+      "values": {
+        "Yes": {
+          "footer.css": ["bigpicture", "QuickAccess", "MainMenu"]
+        },
+        "No": {}
+      }
+    },
+    "Toggle Transparent Header": {
+      "type": "checkbox",
+      "default": "No",
+      "values": {
+        "Yes": {
+          "header.css": ["bigpicture", "QuickAccess", "MainMenu"]
+        },
+        "No": {}
+      }
+    },
+    "Properties Menu Background": {
+      "type": "none"
+    },
+    "Toggle Disable Darken": {
+      "type": "checkbox",
+      "default": "No",
+      "values": {
+        "Yes": {
+          "overlay-darken.css": ["bigpicture", "QuickAccess", "MainMenu"]
+        },
+        "No": {}
+      }
+    },
+    "Toggle Disable Blur": {
+      "type": "checkbox",
+      "default": "No",
+      "values": {
+        "Yes": {
+          "overlay-blur.css": ["bigpicture", "QuickAccess", "MainMenu"]
+        },
+        "No": {}
+      }
+    }
+  }
+}
