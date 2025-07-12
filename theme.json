@@ -1,6 +1,6 @@
 {
-  "name": "Kaporli’s Tweaks",
-  "author": "YourName",
+  "name": "Kaporli's Tweaks",
+  "author": "Kaporli",
   "manifest_version": 7,
   "target": "System-Wide",
   "inject": {},
@@ -27,6 +27,7 @@
     },
     "Properties Menu Background": {
       "type": "none",
+      "default": "",
       "values": {}
     },
     "Toggle Disable Darken": {
