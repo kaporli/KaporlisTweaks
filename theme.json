@@ -1,7 +1,7 @@
 {
-  "name": "Kaporlis Tweaks",
-  "author": "Kaporli",
-  "manifest_version": 8,
+  "name": "Kaporli’s Tweaks",
+  "author": "YourName",
+  "manifest_version": 7,
   "target": "System-Wide",
   "inject": {},
   "patches": {
@@ -26,7 +26,8 @@
       }
     },
     "Properties Menu Background": {
-      "type": "none"
+      "type": "none",
+      "values": {}
     },
     "Toggle Disable Darken": {
       "type": "checkbox",
