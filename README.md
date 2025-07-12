@@ -1,5 +1,8 @@
 # Kaporli's Tweaks
 
+Kaporli’s Tweaks is a lightweight theme for Decky Loader’s CSS Loader on the Steam Deck, made to fix some annoyances I had with the UI.
+
+##
 Provides the following UI tweaks  
 * Toggling transparent footer  
 * Toggling transparent header  
