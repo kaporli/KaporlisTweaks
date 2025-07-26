@@ -1,4 +1,9 @@
-._1E_SL1bTibeQ3PQRBZoS_-::before{
+._1E_SL1bTibeQ3PQRBZoS_-::before {
+    background-color: unset !important;
+    backdrop-filter: none !important;
+}
+
+#header {
     background-color: unset !important;
     backdrop-filter: none !important;
 }

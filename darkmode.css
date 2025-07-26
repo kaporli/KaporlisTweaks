@@ -1,5 +1,5 @@
 [class*="V0cr-SAnDhzAWmPZdrJQJ"], [class*="_23IDiI-F_FxXotrgpY71r8"] {
-    background: rgba(14,20,27,var(--menu-bg-opacity,1)) !important;
+    background: rgba(0,0,0,var(--menu-bg-opacity,1)) !important;
 }
 
 .GamepadMode.friendlist {
@@ -11,8 +11,8 @@
     box-shadow: none !important;
 }
 
-.sfthxkhui6WSgvnbllI_n, .RAI0lLN8sCtqCMI36rLiB, .RAI0lLN8sCtqCMI36rLiB._3moC2HsDsMTWYCzhAnW4tu {
-    background-color: rgba(14,20,27,var(--menu-bg-opacity,1));
+.sfthxkhui6WSgvnbllI_n, .RAI0lLN8sCtqCMI36rLiB {
+    background-color: rgba(0,0,0,.8);
 }
 
 ._12NNtyso3nbzJGi2XxHzcN {
@@ -21,6 +21,10 @@
     border-image-slice: 0;
     border-width: 0px;
     background: linear-gradient(to bottom, rgb(255 255 255 / 0%) 0%, rgb(0 0 0 / 62%) 30%, rgb(0 0 0 / 42%) 78%, rgba(179, 179, 179, 0.18) 100%);
+}
+
+.RAI0lLN8sCtqCMI36rLiB._3moC2HsDsMTWYCzhAnW4tu {
+    background-color: rgba(0,0,0,.8);
 }
 
 .controller_steamcontroller_neptune .rlz-U2wn9ktH5Z9trfpZa, .controller_steamos_handheld .rlz-U2wn9ktH5Z9trfpZa {
@@ -77,4 +81,12 @@
 
 .friend.gpfocus, .friend.gpfocuswithin {
     background: rgba(255,255,255,.2);
+}
+
+/*._3fp5y6tdU77MdrCQZt_aS9.Panel {
+    background: rgba(16,16,16,var(--menu-bg-opacity,1));
+}*/
+
+.By7D93oEZkZtBeg23NDoR._1AYE16384J_ecLpN0sEYc5.UVeN0kaD3zv1feMj_mMw5, ._1wJJQwnV-ssGrL0xveFujy.Panel.Focusable, ._2Dbxm-Lv_YU2jN88HErlMS {
+    background: radial-gradient(100% 80% at 64% 95%, rgba(114, 114, 114, 0.3) 0%, rgba(69, 69, 69, 0.5) 20%, rgba(40, 40, 40, 0.5) 100%);
 }

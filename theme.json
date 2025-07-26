@@ -4,6 +4,7 @@
   "version": "1.2",
   "manifest_version": 7,
   "target": "System-Wide",
+
   "inject": {
     "menu-opacity.css": [
       "bigpicture",
@@ -16,6 +17,7 @@
       "MainMenu"
     ]
   },
+
   "patches": {
     "Toggle Transparent Footer": {
       "type": "checkbox",
@@ -31,6 +33,7 @@
         "No": {}
       }
     },
+
     "Toggle Footer Icon Dropshadow": {
       "type": "checkbox",
       "default": "No",
@@ -45,6 +48,7 @@
         "No": {}
       }
     },
+
     "Toggle Transparent Header": {
       "type": "checkbox",
       "default": "No",
@@ -59,6 +63,7 @@
         "No": {}
       }
     },
+
     "Toggle Header Icon Dropshadow": {
       "type": "checkbox",
       "default": "No",
@@ -73,7 +78,8 @@
         "No": {}
       }
     },
-    "Toggle Disable Darken": {
+
+    "Toggle Properties Menu Disable Darken": {
       "type": "checkbox",
       "default": "No",
       "values": {
@@ -87,7 +93,8 @@
         "No": {}
       }
     },
-    "Toggle Disable Blur": {
+
+    "Toggle Properties Menu Disable Blur": {
       "type": "checkbox",
       "default": "No",
       "values": {
@@ -101,6 +108,7 @@
         "No": {}
       }
     },
+
     "Menu Background Opacity": {
       "type": "slider",
       "default": "1",
@@ -118,30 +126,50 @@
         "1":   { "--menu-bg-opacity": ["1",   "bigpicture", "QuickAccess", "MainMenu"] }
       }
     },
+
     "Menu Corner Radius": {
       "type": "slider",
       "default": "0",
       "values": {
         "0":  {
-          "--custom-QAM-Radius":        ["0px",  "bigpicture", "QuickAccess", "MainMenu"],
-          "--custom-Main-Menu-Radius":  ["0px",  "bigpicture", "QuickAccess", "MainMenu"]
+          "--custom-QAM-Radius":       ["0px",  "bigpicture", "QuickAccess", "MainMenu"],
+          "--custom-Main-Menu-Radius": ["0px",  "bigpicture", "QuickAccess", "MainMenu"]
         },
         "5":  {
-          "--custom-QAM-Radius":        ["5px",  "bigpicture", "QuickAccess", "MainMenu"],
-          "--custom-Main-Menu-Radius":  ["5px",  "bigpicture", "QuickAccess", "MainMenu"]
+          "--custom-QAM-Radius":       ["5px",  "bigpicture", "QuickAccess", "MainMenu"],
+          "--custom-Main-Menu-Radius": ["5px",  "bigpicture", "QuickAccess", "MainMenu"]
         },
         "10": {
-          "--custom-QAM-Radius":        ["10px", "bigpicture", "QuickAccess", "MainMenu"],
-          "--custom-Main-Menu-Radius":  ["10px", "bigpicture", "QuickAccess", "MainMenu"]
+          "--custom-QAM-Radius":       ["10px", "bigpicture", "QuickAccess", "MainMenu"],
+          "--custom-Main-Menu-Radius": ["10px", "bigpicture", "QuickAccess", "MainMenu"]
         },
         "15": {
-          "--custom-QAM-Radius":        ["15px", "bigpicture", "QuickAccess", "MainMenu"],
-          "--custom-Main-Menu-Radius":  ["15px", "bigpicture", "QuickAccess", "MainMenu"]
+          "--custom-QAM-Radius":       ["15px", "bigpicture", "QuickAccess", "MainMenu"],
+          "--custom-Main-Menu-Radius": ["15px", "bigpicture", "QuickAccess", "MainMenu"]
         },
         "20": {
-          "--custom-QAM-Radius":        ["20px", "bigpicture", "QuickAccess", "MainMenu"],
-          "--custom-Main-Menu-Radius":  ["20px", "bigpicture", "QuickAccess", "MainMenu"]
+          "--custom-QAM-Radius":       ["20px", "bigpicture", "QuickAccess", "MainMenu"],
+          "--custom-Main-Menu-Radius": ["20px", "bigpicture", "QuickAccess", "MainMenu"]
+        },
+        "30": {
+          "--custom-QAM-Radius":       ["30px", "bigpicture", "QuickAccess", "MainMenu"],
+          "--custom-Main-Menu-Radius": ["30px", "bigpicture", "QuickAccess", "MainMenu"]
         }
+      }
+    },
+
+    "Toggle Darkmode": {
+      "type": "checkbox",
+      "default": "No",
+      "values": {
+        "Yes": {
+          "darkmode.css": [
+            "bigpicture",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        },
+        "No": {}
       }
     }
   }

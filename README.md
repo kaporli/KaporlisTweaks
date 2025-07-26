@@ -11,6 +11,7 @@ Provides the following UI tweaks
 * Toggling disable darkened background for properties menu  
 * Toggling disable blurred background for properties menu  
 * Changing the opacity of the Steam Menu and the QAM
+* Toggling Darkmode for the Steam Menu and the QAM
 * Changing the roundness of Steam Menu & QAM corners
 
 ## Preview
