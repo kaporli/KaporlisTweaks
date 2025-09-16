@@ -16,11 +16,10 @@ Provides the following UI tweaks
 
 ## Preview
 
-### Footer and Header  
-![Footer and Header](images/footerheader.png)
+### QAM
+![Footer and Header](images/qam_comp.png)
 
-### Blurred Background Off  
-![Blurred Background Off](images/blurdark.png)
+### Steam Menu
+![Blurred Background Off](images/ste_comp1.png)
 
-### Blur and Dark Off  
-![Blur and Dark Off](images/darken.png)
+![Blur and Dark Off](images/ste_comp2.png)
