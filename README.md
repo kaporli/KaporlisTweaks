@@ -28,4 +28,4 @@ Provides the following UI tweaks
 ![Properties Menu](images/prop_comp.png)
 
 ### Footer
-![Footer](images/scr_comp.png)
+![Footer](images/scr_comp.jpg)
