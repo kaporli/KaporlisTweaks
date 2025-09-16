@@ -17,9 +17,15 @@ Provides the following UI tweaks
 ## Preview
 
 ### QAM
-![Footer and Header](images/qam_comp.png)
+![QAM](images/qam_comp.png)
 
 ### Steam Menu
-![Blurred Background Off](images/ste_comp1.png)
+![Steam Menu 1](images/ste_comp1.png)
 
-![Blur and Dark Off](images/ste_comp2.png)
+![Steam Menu 2](images/ste_comp2.png)
+
+### Properties Menu
+![Properties Menu](images/prop_comp.png)
+
+### Footer
+![Footer](images/scr_comp.png)
